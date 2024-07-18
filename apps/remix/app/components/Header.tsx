@@ -13,21 +13,6 @@ export default function Header() {
           <span>VMAIL</span>
         </button>
       </Link>
-      <Link
-        to="/about"
-        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
-        {t("About")}
-      </Link>
-      <Link
-        to="/privacy"
-        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
-        {t("Privacy")}
-      </Link>
-      <Link
-        to="/terms"
-        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
-        {t("Terms")}
-      </Link>
     </div>
   );
 }
