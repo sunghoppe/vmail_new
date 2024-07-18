@@ -10,14 +10,8 @@ export default function Header() {
       <Link to="/" className="font-bold flex items-center justify-center gap-3">
         <VmailLogo />
         <button className="cool-btn">
-          <span>VMAIL.DEV</span>
+          <span>VMAIL</span>
         </button>
-      </Link>
-      <Link
-        to="https://chat.sorapi.dev"
-        target="_blank"
-        className="ml-auto text-sm md:text-base hidden md:block">
-        {t("GPT")}
       </Link>
       <Link
         to="/about"
@@ -33,15 +27,6 @@ export default function Header() {
         to="/terms"
         className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
         {t("Terms")}
-      </Link>
-      <Link
-        className="ml-3 md:ml-8"
-        target="_blank"
-        to="https://github.com/oiov/vmail">
-        <button className="whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground text-md flex h-[32px] w-[85px] cursor-pointer items-center justify-center rounded-md border-2 p-2 font-semibold hover:opacity-50">
-          <GithubPlat />
-          <div className="ml-1.5 text-sm">Star</div>
-        </button>
       </Link>
     </div>
   );
